@@ -27,3 +27,11 @@
     text-align: right;
 }
 
+.actions button {
+    height: 2.2rem;
+    border: 0.13em solid rgb(34, 31, 31);
+    background-color: firebrick;
+    color: #fff;
+    font-weight:bolder;
+    
+}

@@ -6,7 +6,7 @@ function NewMeetupPage() {
         console.log(enteredValue)
     }
  return (
-     <NewMeetupForm onAddMeetup={addMeetupHandler} />
+     <NewMeetupForm  onAddMeetup={addMeetupHandler} />
  )
 } 
 
