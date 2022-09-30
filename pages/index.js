@@ -1,4 +1,4 @@
-import Layout from '../components/layout/Layout';
+
 import MeetupList from '../components/meetups/MeetupList';
 
 const DUMMY_MEETUps = [
@@ -20,9 +20,7 @@ const DUMMY_MEETUps = [
 
 function Homepage() {
     return (
-        <Layout>
             <MeetupList meetups={DUMMY_MEETUps} />
-        </Layout>
         
     )
 }
