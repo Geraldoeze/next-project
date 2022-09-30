@@ -1,14 +1,38 @@
 .header {
-  display: flex;
-  width: 100%;
-  height: 10vh;
-  background-color: rgb(151, 39, 5);
-  position: static; 
-  color: white;
+    display: flex;
+    background-color: chocolate;
+    padding: 0.5rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 
 .logo {
-  margin: 1rem 2rem;
-  font-size: 22px;
+    display: block;
+    width: 35%;
+    margin: 1rem 0 1rem 1.8rem;
+    font-size: 22px;
+    color: white;
+    letter-spacing: 0.09rem;
 }
 
+.links {
+    display: block;
+    width: 65%;    
+}
+
+.tags {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 1rem;
+    padding: 0;
+}
+
+.tags li a{
+    margin: 1rem 0.5rem;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    letter-spacing: 0.09rem;
+}
