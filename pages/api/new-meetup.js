@@ -12,7 +12,6 @@ async function handler(req, res) {
         // const {title, image, address, description} = data;
 
         const client = await MongoClient.connect(MONGODB_URI)
-        console.log('Na here', client)
         const db = client.db();
 
         const meetupsCollection = db.collection('meetups')
