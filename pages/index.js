@@ -11,7 +11,7 @@ const DUMMY_MEETUps = [
         description: 'This is a new place'
     },
     {
-        id: 'm3',
+        id: 'm2',
         title: 'Our Second Meetup.',
         image: 'nig-pic.jpg',
         address: 'some place 45, city unknown',
