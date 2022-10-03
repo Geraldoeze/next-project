@@ -6,10 +6,11 @@ ul {
 }
 
 html {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
+    background: linear-gradient(to right, rgb(41, 3, 9), rgb(32, 8, 32)) ;
     margin: 0;
     box-sizing: border-box;
 }

@@ -20,8 +20,14 @@
 
 .actions button {
     height: 2rem;
-    background: transparent;
-    border: 0.1rem solid rgb(71, 71, 71);
+    background: rgb(87, 43, 61);
+    color: #fff;
+    border: 0.1em solid rgb(71, 71, 71);
     border-radius: 2px;
     padding: 0 1rem;
+    font-size: 16px;
+}
+
+.actions button:hover {
+    background: linear-gradient(to right, rgb(238, 134, 151), purple);
 }

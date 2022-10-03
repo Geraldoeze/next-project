@@ -1,6 +1,6 @@
 .header {
     display: flex;
-    background-color: chocolate;
+    background-color: rgb(107, 13, 84);
     padding: 0.5rem 0;
     position: sticky;
     top: 0;
@@ -11,8 +11,9 @@
     display: block;
     width: 35%;
     margin: 1rem 0 1rem 1.8rem;
-    font-size: 22px;
-    color: white;
+    font-size: 32px;
+    font-weight: bolder;
+    color: rgb(255, 11, 105);
     letter-spacing: 0.09rem;
 }
 
@@ -29,10 +30,36 @@
     padding: 0;
 }
 
-.tags li a{
+.list {
+    text-align: center;
+    
+}
+
+.list a{
     margin: 1rem 0.5rem;
-    color: white;
-    font-size: 18px;
+    color: rgb(255, 11, 105);
+    font-size: 24px;
     text-decoration: none;
-    letter-spacing: 0.09rem;
+    
+}
+
+.list a:hover {
+    padding: 0.5rem;
+     border: 1px solid white;
+}
+
+@media (max-width: 500px) {
+    .logo {
+        margin: 0.7rem;
+        font-size: 28px;
+    }
+    .tags {
+        margin: 0.5rem;
+    }
+    .list a {
+        font-size: 18px;
+        align-items: center;
+        text-align: center;
+
+    }
 }

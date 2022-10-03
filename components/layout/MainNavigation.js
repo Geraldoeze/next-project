@@ -7,10 +7,10 @@ function MainNavigation() {
           <div className={classes.logo}>React</div>
           <nav className={classes.links}>
               <ul className={classes.tags}>
-                  <li>
+                  <li className={classes.list}>
                       <Link href='/'>All Meetups</Link>
                   </li>
-                  <li>
+                  <li className={classes.list}>
                     <Link href='/new-meetup'>Add New Meetup</Link>
                   </li>
               </ul>
